@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "messagemod",
+  "version": "1.0.0",
+  "name": "Message Mod",
+  "description": "Advanced message mod with database",
+  "authors": ["Your Name"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/messagemod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.messagemod.MessageMod"],
+    "client": ["com.example.messagemod.client.MessageModClient"]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
