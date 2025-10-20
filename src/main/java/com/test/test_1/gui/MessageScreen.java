@@ -65,10 +65,10 @@ public class MessageScreen extends Screen {
 
     @Override
     public boolean keyPressed(int keyCode, int scanCode, int modifiers) {
-        if (keyCode == 256) { // ESC
+        if (keyCode == 256) {
             this.close();
             return true;
-        } else if (keyCode == 257) { // Enter
+        } else if (keyCode == 257) {
             this.sendMessage();
             return true;
         }

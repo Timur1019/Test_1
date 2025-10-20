@@ -44,7 +44,6 @@ public class PacketHandler {
             MessageEntity entity = new MessageEntity(playerUuid, text);
             repository.saveMessage(entity);
 
-            MessageMod.LOGGER.info("Message saved from player {}: {}", playerUuid, text);
         } catch (Exception e) {
             MessageMod.LOGGER.error("Failed to save message to database", e);
         }
